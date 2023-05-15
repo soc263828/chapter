@@ -1,0 +1,32 @@
+＊{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+a{
+  text-decoration: none;
+}
+
+header{
+  width:100%;
+  height:50px;
+  background-color:#FF9A4B;
+}
+
+.step-box{
+  width:300px;
+  height:;
+  background-color:#EEEEEE;
+}
+
+.step-img1{
+  width:300px;
+  height:150px;
+  background-image:url(img/flow01.png);
+  background-position:center;
+}
+
+.step-unm{
+  
+}
