@@ -66,19 +66,21 @@ footer{
   background-color:#AAAAAA;
 }
 
-@media screen and (max-width:768px){
+@media screen and (max-width: 768px) {
   header{
     width:100%;
+    height: 50px;
   }
 
  main{
     width:100%;
-    display:block;
+    margin:50px auto;
+    display:inline-block;
  }
 
   .step-box{
     width:90%;
-    margin-bottom:20px;
+    margin:0 auto 20px auto;
   }
 
   .step-img1,
@@ -86,6 +88,11 @@ footer{
   .step-img3{
     background-position:center;
     background-size:cover;
+  }
+
+  .step-box:last-child{
+    width:90%;
+    margin:auto;
   }
 
   footer{
